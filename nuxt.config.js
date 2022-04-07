@@ -1,6 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  router: {
+    base: '/my-nuxt-project/'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -65,4 +73,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+
 }
